@@ -52,15 +52,17 @@ namespace OPCUAFunctions
                 log.LogError("Application setting \"ADT_SERVICE_URL\" not set, exiting run");
                 return;
             }
-
+               
+            log.LogError("Step1");
             JObject msg = (JObject)JsonConvert.DeserializeObject(message.Data.ToString());
+            log.LogError("Step2");
             string body = msg["body"].ToString();
-
+            
             // handle base64decode
             // if in local debug mode, use a hardcoded decoded string
             body = this.base64DecodeString(body);
 
-            if (_logLevel >= 300) log.LogInformation($"body:\r\n{body}");
+            log.LogInformation($"body:\r\n{body}");
 
             // take body of message and build a strongly typed list of nodes
             List<TwinDto> dto = new List<TwinDto>();
