@@ -1,8 +1,44 @@
 [
     {
-        "NodeId": "1015",
-        "TwinId": "GrindingStep",
+        "NodeId": "1014",
+        "TwinId": "Grader",
         "Property": "Airtemperature",
+        "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grader;1"
+    },
+    {
+        "NodeId": "1034",
+        "TwinId": "Grader",
+        "Property": "Toolwear",
+        "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grader;1"
+    },
+    {
+        "NodeId": "1029",
+        "TwinId": "Grader",
+        "Property": "Torque",
+        "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grader;1"
+    },
+    {
+        "NodeId": "1015",
+        "TwinId": "Grinding",
+        "Property": "Airtemperature",
+        "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grinding;1"
+    },
+    {
+        "NodeId": "1025",
+        "TwinId": "Grinding",
+        "Property": "Rotationalspeed",
+        "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grinding;1"
+    },
+    {
+        "NodeId": "1035",
+        "TwinId": "Grinding",
+        "Property": "Toolwear",
+        "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grinding;1"
+    },
+    {
+        "NodeId": "1030",
+        "TwinId": "Grinding",
+        "Property": "Torque",
         "ModelId": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grinding;1"
     }
 ]
