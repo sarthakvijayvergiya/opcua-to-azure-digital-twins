@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grader;1",
+    "@type": "Interface",
+    "displayName": "Factory Production Step: Grader - Interface Model",
+    "extends": "dtmi:com:hack:iot:e2e:digital_factory:production_step;2",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Airtemperature",
+        "schema": "float"
+      },
+      {
+        "@type": "Property",
+        "name": "Torque",
+        "schema": "float"
+      },
+      {
+        "@type": "Property",
+        "name": "Toolwear",
+        "schema":"float"
+      }
+    ]
+  }
+]

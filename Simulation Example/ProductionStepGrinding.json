@@ -1,0 +1,31 @@
+[
+  {
+    "@id": "dtmi:com:hack:iot:e2e:digital_factory:production_step_grinding;1",
+    "@type": "Interface",
+    "extends": "dtmi:com:hack:iot:e2e:digital_factory:production_step;2",
+    "displayName": "Factory Production Step: Grinding/Crushing - Interface Model",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Airtemperature",
+        "schema": "float"
+      },
+      {
+        "@type": "Property",
+        "name": "Rotationalspeed",
+        "schema": "float"
+      },
+      {
+        "@type": "Property",
+        "name": "Torque",
+        "schema": "float"
+      },
+      {
+        "@type": "Property",
+        "name": "Toolwear",
+        "schema":"float"
+      }
+    ]
+  }
+]
