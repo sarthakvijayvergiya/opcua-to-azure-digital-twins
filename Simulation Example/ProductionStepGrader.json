@@ -9,17 +9,17 @@
       {
         "@type": "Property",
         "name": "Airtemperature",
-        "schema": "float"
+        "schema": "Double"
       },
       {
         "@type": "Property",
         "name": "Torque",
-        "schema": "float"
+        "schema": "Double"
       },
       {
         "@type": "Property",
         "name": "Toolwear",
-        "schema":"float"
+        "schema":"Double"
       }
     ]
   }
