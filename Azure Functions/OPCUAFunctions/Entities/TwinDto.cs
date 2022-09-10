@@ -7,7 +7,7 @@ namespace OPCUAFunctions.Entities
     public class Node
     {
         public string NodeId { get; set; }
-        public string ApplicationUri { get; set; }
+        public string EndpointUrl { get; set; }
         public string DisplayName { get; set; }
         public NodeValue Value { get; set;  }
     }   
