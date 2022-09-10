@@ -63,17 +63,24 @@ namespace OPCUAFunctions
             body = this.base64DecodeString(body);
 
             log.LogInformation($"body:\r\n{body}");
-
+            
+            log.LogError("Step3");
+            
             // take body of message and build a strongly typed list of nodes
             List<TwinDto> dto = new List<TwinDto>();
             List<string> twins = new List<string>();
-
+            
             List<Node> nodes = JsonConvert.DeserializeObject<List<Node>>(body);
+               
+            log.LogError("Step4");
+            
+            log.LogInformation($"nodes:\r\n{nodes}");
             dto = new List<TwinDto>();
 
             // get node to twin mapping
             IList<NodeTwinMap> mapping = this.GetNodeToTwinMapping(_mappingUrl, log);
-
+            log.LogError("Step5");
+            
             // if mapping object is empty, something went wrong
             if (mapping == null)
             {
@@ -103,7 +110,8 @@ namespace OPCUAFunctions
                     }
                 );
             }
-
+            log.LogError("Step6");
+            
             if (_logLevel >= 300) log.LogInformation($"dto:\r\n{dto.ToString()}");
 
             // check to make sure the dto has values
