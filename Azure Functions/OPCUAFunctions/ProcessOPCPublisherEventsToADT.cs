@@ -91,7 +91,9 @@ namespace OPCUAFunctions
             // build a simplified format of our list
             // this will make it easier to sort, order, clean
             foreach (Node node in nodes)
-            {
+            {   
+                log.LogInformation($"node:\r\n{node}");
+                log.LogInformation($"nodeId:\r\n{node.NodeId}");
                 // get node id
                 string nodeId = this.getValueFromSplit('=', node.NodeId, -1);
                 log.LogInformation($"nodeId:\r\n{nodeId}");
