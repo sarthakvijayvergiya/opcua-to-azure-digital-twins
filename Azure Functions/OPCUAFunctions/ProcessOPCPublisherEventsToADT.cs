@@ -35,7 +35,7 @@ namespace OPCUAFunctions
         [FunctionName("ProcessOPCPublisherEventsToADT")]
         public void Run([EventGridTrigger] EventGridEvent message, ILogger log)
         {
-            //if (_logMe) log.LogInformation(message.Data.ToString());
+            log.LogInformation(message.Data.ToString());
 
             _logLevel = isNumeric(_logLevelString) ? Convert.ToInt32(_logLevelString) : 100;
 
@@ -45,7 +45,7 @@ namespace OPCUAFunctions
                 return;
             }
 
-            //if (_logMe) log.LogInformation(message.Data.ToString());
+            log.LogInformation(message.Data.ToString());
 
             if (_adtServiceUrl == null)
             {
