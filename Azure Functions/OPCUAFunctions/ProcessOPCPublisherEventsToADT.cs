@@ -74,7 +74,7 @@ namespace OPCUAFunctions
                
             log.LogError("Step4");
             
-            log.LogInformation($"nodes:\r\n{nodes}");
+            log.LogInformation($"nodes Count:\r\n{nodes.Count}");
             dto = new List<TwinDto>();
 
             // get node to twin mapping
