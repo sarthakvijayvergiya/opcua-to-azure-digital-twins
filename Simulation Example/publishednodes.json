@@ -1,35 +1,130 @@
 [
     {
-        "EndpointUrl": "opc.tcp://20.185.195.172:53530/OPCUA/SimulationServer",
+        "EndpointUrl": "opc.tcp://49.37.135.16:53530/OPCUA/SimulationServer",
         "UseSecurity": false,
         "OpcNodes": [
             {
-                "Id": "ns=3;i=1001",
+                "Id": "ns=3;i=1012",
                 "OpcSamplingInterval": 2000,
                 "OpcPublishingInterval": 5000
             },
             {
-                "Id": "ns=3;i=1002",
+                "Id": "ns=3;i=1013",
                 "OpcSamplingInterval": 2000,
                 "OpcPublishingInterval": 5000
             },
             {
-                "Id": "ns=3;i=1003",
+                "Id": "ns=3;i=1014",
                 "OpcSamplingInterval": 2000,
                 "OpcPublishingInterval": 5000
             },
             {
-                "Id": "ns=3;i=1004",
+                "Id": "ns=3;i=1015",
                 "OpcSamplingInterval": 2000,
                 "OpcPublishingInterval": 5000
             },
             {
-                "Id": "ns=3;i=1005",
+                "Id": "ns=3;i=1016",
                 "OpcSamplingInterval": 2000,
                 "OpcPublishingInterval": 5000
             },
             {
-                "Id": "ns=3;i=1006",
+                "Id": "ns=3;i=1017",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1018",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+	        {
+                "Id": "ns=3;i=1019",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1020",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1021",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1022",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1023",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1024",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+	        {
+                "Id": "ns=3;i=1025",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1026",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1027",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1028",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1029",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1030",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+	        {
+                "Id": "ns=3;i=1031",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1032",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1033",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1034",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1035",
+                "OpcSamplingInterval": 2000,
+                "OpcPublishingInterval": 5000
+            },
+            {
+                "Id": "ns=3;i=1036",
                 "OpcSamplingInterval": 2000,
                 "OpcPublishingInterval": 5000
             }
