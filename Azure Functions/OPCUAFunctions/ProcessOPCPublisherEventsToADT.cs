@@ -95,7 +95,7 @@ namespace OPCUAFunctions
                 log.LogInformation($"node:\r\n{node}");
                 log.LogInformation($"nodeId:\r\n{node.NodeId}");
                 // get node id
-                string nodeId = this.getValueFromSplit('=', node.NodeId, 1);
+                string nodeId = this.getValueFromSplit('=', node.NodeId, 2);
                 log.LogInformation($"nodeId:\r\n{nodeId}");
                 // get mapping information by the node
                 NodeTwinMap map = mapping.Where(x => x.NodeId == nodeId).Single<NodeTwinMap>();
